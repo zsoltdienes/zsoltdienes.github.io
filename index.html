@@ -21,10 +21,23 @@
       justify-content: center;
     }
 
+    .figure {
+      width: 100%;
+      margin: 0;
+    }
+
     .image-wrapper img {
       width: 100%;
       height: auto;
       display: block;
+    }
+
+    .figure figcaption {
+      width: 100%;
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      text-align: left;
     }
 
     @media (max-width: 768px) {
@@ -36,7 +49,10 @@
 </head>
 <body>
   <div class="image-wrapper">
-    <img src="minoseg_janos.jpg" alt="Minoseg Janos">
+    <figure class="figure">
+      <img src="minoseg_janos.jpg" alt="Minoseg Janos">
+      <figcaption>J. M. Juran: Minőség tervezés, szabályozás, ellenőrzés, 1966.</figcaption>
+    </figure>
   </div>
 </body>
 </html>
